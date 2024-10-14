@@ -58,6 +58,7 @@ This is a custom event-driven onchain trading backtesting framework for testing 
 ├── README.md                     # Library documentation.
 ├── LICENSE                       # License for the library.
 └── requirements.txt              # Python dependencies.
+```
 
 ## License
 Licensed under the MIT License.
