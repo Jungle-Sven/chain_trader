@@ -16,7 +16,10 @@ This is a custom event-driven onchain trading backtesting framework for testing 
     ```bash
     pip install -r requirements.txt
     ```
-# File structure
+
+## File Structure
+```markdown
+/chain_trader
 │
 ├── /core
 │   ├── __init__.py
@@ -39,6 +42,11 @@ This is a custom event-driven onchain trading backtesting framework for testing 
 │   ├── execution_manager.py      # For future use: executing real trades live.
 │   ├── live_event_processor.py   # Processing live swap events and price feeds.
 │
+├── /data_types
+│   ├── __init__.py
+│   ├── token_info.py             # Data structure for tokens and pools.
+│   ├── swaps.py                  # Data structure for swap events.
+│
 ├── /examples
 │   ├── simple_strategy.py        # Example of a simple trading strategy using the framework.
 │
@@ -50,7 +58,6 @@ This is a custom event-driven onchain trading backtesting framework for testing 
 ├── README.md                     # Library documentation.
 ├── LICENSE                       # License for the library.
 └── requirements.txt              # Python dependencies.
-
 
 ## License
 Licensed under the MIT License.
